@@ -127,15 +127,34 @@ function LoginPage() {
     return (
         <div>
             <h3 >Please Log-In To See Products from {from.pathname}</h3>
-            <form>
-                
-                    <input type="text" placeholder="Username"/>
-                    
-                    <input type="password" placeholder="Password"/>
-                
-            </form>
-            <Button onClick={login}
+<div id="login" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+  <p></p>
+    <div class="modal-content">
+      <div class="modal-body">
+     
+      <p></p>
+        <form>
+          <input type="text" name="username" class="username form-control" placeholder="Username"/>
+          <p></p>
+          <input type="password" name="password" class="password form-control" placeholder="password"/>
+          <p></p>
+          <p></p>
+          <Button class="btn login" onClick={login}
                 variant='outlined'>Log In</Button>
+         
+          
+        </form>
+        
+      </div>
+      <br></br>
+    </div>
+    <br></br>
+  </div> 
+  <br></br>
+</div>
+<br></br>
         </div>
+        
     );
 }
