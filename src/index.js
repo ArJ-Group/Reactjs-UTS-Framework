@@ -1,17 +1,25 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import BasicExample from './App';
+// import ParamsExample from './urlParams';
+// import AuthExample from './auth';
+// import NestingExample from './nesting';
+import Main from './Tugas';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// Praktikum Basic Router
+// ReactDOM.render(<BasicExample />, document.getElementById('root'));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// Praktikum URL Params
+// ReactDOM.render(<ParamsExample />, document.getElementById('root'));
+
+// Praktikum Nesting Router
+// ReactDOM.render(<NestingExample />, document.getElementById('root'));
+
+// Praktikum redirect Auth
+// ReactDOM.render(<AuthExample />, document.getElementById('root'));
+
+// Tugas Praktikum
+ReactDOM.render(<Main/>, document.getElementById('root'));
 reportWebVitals();
