@@ -31,6 +31,15 @@ class Contact extends Component {
                         description="1941720092 | 3H | Backend Engineer"
 
                     />
+            
+                    <Card
+                        src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"
+                        title="Meuti Zari"     
+                        description="1941720088 | 3H "
+
+                    />
+            
+            
                    
                 </div>
 
